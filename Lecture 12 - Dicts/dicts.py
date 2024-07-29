@@ -1,54 +1,54 @@
 
-# empty_dict = {}
-# empty_dict2 = dict()
-# print(type(empty_dict))
-# print(type(empty_dict2))
+empty_dict = {}
+empty_dict2 = dict()
+print(type(empty_dict))
+print(type(empty_dict2))
 
 
 
-# filled_dict = {"name": "John", "age": 25, "profession": "Developer"}
+filled_dict = {"name": "John", "age": 25, "profession": "Developer"}
 
-# print(filled_dict['Step'])
-# print(filled_dict.get("step", "Keyword Doesn't exist"))
+print(filled_dict['Step'])
+print(filled_dict.get("step", "Keyword Doesn't exist"))
 
-# filled_dict['courses'] = ['Python', 'Java', 'JavaScript', 'Go']
-# print(filled_dict)
-# print(filled_dict.keys())
-# print(filled_dict.values())
-# print(filled_dict.items())
+filled_dict['courses'] = ['Python', 'Java', 'JavaScript', 'Go']
+print(filled_dict)
+print(filled_dict.keys())
+print(filled_dict.values())
+print(filled_dict.items())
 
-# for key, value in filled_dict.items():
-    # if key == 'name' and value == 'Irakli':
-    #     print("Found")
+for key, value in filled_dict.items():
+    if key == 'name' and value == 'Irakli':
+        print("Found")
 
-    # print(key, value)
-
-
-
-# filled_dict1 = {"name": "John", "age": 25, "profession": "Developer"}
-# filled_dict2 = {"last_name": "Doe", "courses": ['Python', 'Java']}
-
-# filled_dict.setdefault("last_name", 'Joe')
-# print(filled_dict)
-# filled_dict1.update(filled_dict2)
-# print(filled_dict1)
+    print(key, value)
 
 
-# print(filled_dict1.pop('name'))
-# print(filled_dict1.popitem())
 
-# print('John' in filled_dict1)
+filled_dict1 = {"name": "John", "age": 25, "profession": "Developer"}
+filled_dict2 = {"last_name": "Doe", "courses": ['Python', 'Java']}
+
+filled_dict.setdefault("last_name", 'Joe')
+print(filled_dict)
+filled_dict1.update(filled_dict2)
+print(filled_dict1)
 
 
-# frozen_dict = {frozenset({"John", "Kate"}): "Hello"}
-#
-# print(frozen_dict[frozenset({"John", "Kate"})])
+print(filled_dict1.pop('name'))
+print(filled_dict1.popitem())
+
+print('John' in filled_dict1)
 
 
-# products = {'apple': 20, 'banana': 25, 'pinnaple': 21, 'orange': 22}
-#
-# filtered_dict = {key: value for key, value in products.items() if value > 21}
-# print(filtered_dict)
+frozen_dict = {frozenset({"John", "Kate"}): "Hello"}
+
+print(frozen_dict[frozenset({"John", "Kate"})])
+
+
+products = {'apple': 20, 'banana': 25, 'pinnaple': 21, 'orange': 22}
+
+filtered_dict = {key: value for key, value in products.items() if value > 21}
+print(filtered_dict)
 
 
 products = {
