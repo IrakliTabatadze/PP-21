@@ -53,3 +53,21 @@ for department in company:
         average_salary = total_salary / len(company[department])
 
     print(f"{department} average salary: {average_salary}")
+
+
+def plus(num1, num2):
+    return num1 + num2
+
+def substruction(num1, num2):
+    return num1 - num2
+
+operations = {
+    "+": lambda x, y: x + y,
+    "-": lambda x, y: x - y
+}
+
+num1 = int(input("Please input the number: "))
+num2 = int(input("Please input the number: "))
+operator = str(input("Please input the operator: "))
+
+print(operations[operator](num1, num2))
