@@ -41,6 +41,23 @@ class LinkedList:
         if current_node.next:
             current_node.next = current_node.next.next
 
+    def remove(self, data):
+        if self.head is None:
+            return
+
+        if self.head.data == data:
+            self.head = self.head.next
+            return
+
+        current_node = self.head
+
+        while current_node.next and current_node.next.data != data:
+            current_node = current_node.next
+
+        if current_node.next:
+            current_node.next = current_node.next.next
+
+
     def display(self):
         current_node = self.head
 
@@ -56,6 +73,8 @@ linked_list.append(True)
 linked_list.append(5.5)
 linked_list.display()
 print()
-linked_list.remove_at(2)
-linked_list.remove_at(0)
+linked_list.remove('Hello')
+linked_list.remove(True)
+# linked_list.remove_at(2)
+# linked_list.remove_at(0)
 linked_list.display()
