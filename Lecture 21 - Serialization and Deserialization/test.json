@@ -1,0 +1,174 @@
+[
+    {
+        "electronics": {
+            "laptops": {
+                "apple": {
+                    "1001": {
+                        "model": "Macbook Pro",
+                        "price": 6000
+                    },
+                    "1002": {
+                        "model": "Macbook Air",
+                        "price": 4000
+                    }
+                },
+                "HP": {
+                    "2001": {
+                        "model": "Pavillion",
+                        "price": 2000
+                    },
+                    "2002": {
+                        "model": "G250",
+                        "price": 2000
+                    }
+                }
+            },
+            "phones": {
+                "samsung": {
+                    "3001": {
+                        "model": "S24 Ultra",
+                        "price": 2000
+                    }
+                }
+            }
+        },
+        "clothes": {
+            "shirts": {
+                "Nike": {
+                    "4001": {
+                        "ragac key": "ragac value"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "electronics": {
+            "laptops": {
+                "apple": {
+                    "1001": {
+                        "model": "Macbook Pro",
+                        "price": 6000
+                    },
+                    "1002": {
+                        "model": "Macbook Air",
+                        "price": 4000
+                    }
+                },
+                "HP": {
+                    "2001": {
+                        "model": "Pavillion",
+                        "price": 2000
+                    },
+                    "2002": {
+                        "model": "G250",
+                        "price": 2000
+                    }
+                }
+            },
+            "phones": {
+                "samsung": {
+                    "3001": {
+                        "model": "S24 Ultra",
+                        "price": 2000
+                    }
+                }
+            }
+        },
+        "clothes": {
+            "shirts": {
+                "Nike": {
+                    "4001": {
+                        "ragac key": "ragac value"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "electronics": {
+            "laptops": {
+                "apple": {
+                    "1001": {
+                        "model": "Macbook Pro",
+                        "price": 6000
+                    },
+                    "1002": {
+                        "model": "Macbook Air",
+                        "price": 4000
+                    }
+                },
+                "HP": {
+                    "2001": {
+                        "model": "Pavillion",
+                        "price": 2000
+                    },
+                    "2002": {
+                        "model": "G250",
+                        "price": 2000
+                    }
+                }
+            },
+            "phones": {
+                "samsung": {
+                    "3001": {
+                        "model": "S24 Ultra",
+                        "price": 2000
+                    }
+                }
+            }
+        },
+        "clothes": {
+            "shirts": {
+                "Nike": {
+                    "4001": {
+                        "ragac key": "ragac value"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "electronics": {
+            "laptops": {
+                "apple": {
+                    "1001": {
+                        "model": "Macbook Pro",
+                        "price": 6000
+                    },
+                    "1002": {
+                        "model": "Macbook Air",
+                        "price": 4000
+                    }
+                },
+                "HP": {
+                    "2001": {
+                        "model": "Pavillion",
+                        "price": 2000
+                    },
+                    "2002": {
+                        "model": "G250",
+                        "price": 2000
+                    }
+                }
+            },
+            "phones": {
+                "samsung": {
+                    "3001": {
+                        "model": "S24 Ultra",
+                        "price": 2000
+                    }
+                }
+            }
+        },
+        "clothes": {
+            "shirts": {
+                "Nike": {
+                    "4001": {
+                        "ragac key": "ragac value"
+                    }
+                }
+            }
+        }
+    }
+]

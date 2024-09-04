@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Todd Pitts",
+        "age": 30,
+        "courses": [
+            "Python",
+            "Java",
+            "Kotlin",
+            "C#"
+        ]
+    },
+    {
+        "name": "Cindy Herrera",
+        "age": 30,
+        "courses": [
+            "Python",
+            "Java",
+            "Kotlin",
+            "C#"
+        ]
+    },
+    {
+        "name": "Patrick Gates",
+        "age": 30,
+        "courses": [
+            "Python",
+            "Java",
+            "Kotlin",
+            "C#"
+        ]
+    }
+]
