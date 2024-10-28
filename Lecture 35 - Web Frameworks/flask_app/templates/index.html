@@ -50,17 +50,16 @@
                     <td>{{ car.instock }}</td>
                     <td>${{ car.price }}</td>
                     <td>
-                        <a href="" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit">Edit</a>
+                        <a href="" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit{{car.id}}">Edit</a>
                         
                         <a href="/delete/{{ car.id }}" class="btn btn-danger btn-xs"  onclick="return confirm('Are you sure to delete?')">Delete</a>
-                    
-                    
+
                     </td>
                     
                 </tr>
-            {% endfor %}
 
-                <div id="modaledit" class="modal fade" role="dialog">
+
+                <div id="modaledit{{car.id}}" class="modal fade" role="dialog">
 
                     <div class="modal-dialog">
 
@@ -75,29 +74,28 @@
 
                             <div class="modal-body">
 
-                                <form action="" method="post">
+                                <form action="/update/{{car.id}}" method="post">
 
 
                                     <div class="form-group">
 
                                         <label >Manufacturer:</label>
-                                        <input type="hidden" name="id" value="">
-                                        <input type="text" class="form-control" name="manufacturer" value="">
+                                        <input type="hidden" name="id" value="{{car.id}}">
+                                        <input type="text" class="form-control" name="manufacturer" value="{{car.manufacturer}}">
 
                                     </div>
 
                                     <div class="form-group">
 
                                         <label >Model:</label>
-                                        <input type="hidden" name="id" value="">
-                                        <input type="text" class="form-control" name="model" value="">
+                                        <input type="text" class="form-control" name="model" value="{{car.model}}">
 
                                     </div>
 
                                     <div class="form-group">
 
                                         <label >In Stock: </label>
-                                        <select class="form-control" name="instock">
+                                        <select class="form-control" name="instock" value="{{car.instock}}">
                                             <option value="YES" style="color: rgb(0, 255, 0);"><b>YES</b></option>
                                             <option value="NO" style="color: red;"><b>NO</b></option>
                                         </select>
@@ -109,7 +107,7 @@
                                     <div class="form-group">
 
                                         <label >Price: </label>
-                                        <input type="text" class="form-control" name="price" value="">
+                                        <input type="text" class="form-control" name="price" value="{{car.price}}">
 
 
 
@@ -139,6 +137,8 @@
                     </div>
 
                 </div>
+
+                {% endfor %}
 
 
 

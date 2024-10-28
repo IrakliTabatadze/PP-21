@@ -54,6 +54,21 @@ def delete(id):
     return redirect(url_for('Index'))
 
 
+@app.route('/update/<id>', methods=['GET', 'POST'])
+def update(id):
+    if request.method == 'POST':
+        car = Cars.query.get(id)
+
+        car.manufacturer = request.form['manufacturer']
+        car.model = request.form['model']
+        car.instock = request.form['instock']
+        car.price = request.form['price']
+
+        db.session.commit()
+
+        return redirect(url_for('Index'))
+
+
 if __name__ == '__main__':
 
     with app.app_context():
